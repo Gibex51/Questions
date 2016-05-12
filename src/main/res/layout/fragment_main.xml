@@ -1,0 +1,65 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/but_reset"
+                android:id="@+id/button3"
+                android:layout_column="8"
+                android:onClick="ResetButton_Click"
+                android:singleLine="false" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:text="@string/but_next"
+                android:onClick="NextButton_Click" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/InfoText"
+                android:layout_column="13"
+                android:lines="2"
+                android:linksClickable="true"
+                android:layout_marginTop="-10dp"
+                android:text="@string/QuestStr"
+                android:singleLine="false" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/but_unlim"
+                android:id="@+id/checkBox" />
+
+        </TableRow>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/QuestLayout">
+            </LinearLayout>
+        </ScrollView>
+
+    </TableLayout>
+
+</RelativeLayout>
