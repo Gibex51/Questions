@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.topotgames.questions.MainMenuFragment"
+              android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_search_question"
+        android:id="@+id/button_question_search"
+        android:layout_gravity="center_horizontal"
+        android:width="280sp"
+        android:layout_marginTop="100sp"
+        android:height="55sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_start_test"
+        android:id="@+id/button_start_test"
+        android:layout_gravity="center_horizontal"
+        android:width="280sp"
+        android:layout_marginTop="25sp"
+        android:height="55sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_checked_test"
+        android:id="@+id/button_checked_test"
+        android:layout_gravity="center_horizontal"
+        android:width="280sp"
+        android:layout_marginTop="25sp"
+        android:height="55sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_random_test"
+        android:id="@+id/button_random_test"
+        android:layout_gravity="center_horizontal"
+        android:width="280sp"
+        android:layout_marginTop="25sp"
+        android:height="55sp"/>
+</LinearLayout>
